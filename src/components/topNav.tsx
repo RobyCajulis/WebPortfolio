@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
 import { CiLight } from "react-icons/ci";

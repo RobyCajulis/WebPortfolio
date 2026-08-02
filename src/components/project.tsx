@@ -1,4 +1,4 @@
-import Gsw from "../assets/gsw.png";
+import Gsw from "../assets/Gsw.png";
 import Ff from "../assets/Ff.jpg";
 import Foodie from "../assets/Foodie.png";
 
