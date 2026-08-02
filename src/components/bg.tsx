@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Chill from "../assets/Chill.mp3";
 
 export default function BackgroundMusic() {
