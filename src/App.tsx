@@ -5,6 +5,7 @@ import Landing from './components/landing.js';
 import Experience from './components/Experience.js';
 import Skills from './components/skills.js';
 import Project from './components/project.js';
+import Contact from './components/contact.js';
 
 /*
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -44,6 +45,10 @@ function App() {
 
     <section id="skills">
       <Skills/>
+    </section>
+
+    <section id="contact">
+      <Contact/>
     </section>
     </>
     

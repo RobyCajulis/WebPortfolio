@@ -33,7 +33,7 @@ function Skills() {
     },
   ];
 
-  // Each skill's real logo + its official brand color.
+ 
   const tiles = [
     { name: "React.js", icon: SiReact, color: "#61DAFB" },
     { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
@@ -60,7 +60,7 @@ function Skills() {
     <section className="min-h-screen bg-gray-950 text-white px-6 py-30 md:px-40 md:py-5">
       <div className="items-start max-w-7xl md:ml-40">
 
-        {/* Skills */}
+        
         <div className="mt-24">
           <h1 className="text-4xl md:text-5xl font-bold mb-10">
             Skills
@@ -94,7 +94,7 @@ function Skills() {
           </div>
         </div>
 
-        {/* Skills — icon tile grid */}
+        
         <div className="mt-16">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {tiles.map((tile) => {

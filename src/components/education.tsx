@@ -1,7 +1,7 @@
 function Education() {
   return (
     <section className="min-h-screen bg-gray-950 text-white px-6 py-30">
-      <div className="items-start max-w-7xl md:ml-40 md:ps-50">
+      <div className="items-start max-w-7xl md:ml-30 md:ps-50">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
