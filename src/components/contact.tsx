@@ -7,7 +7,7 @@ function Contact() {
           Contact
         </h1>
         <h2 className="text-xl font-bold tracking-tight pt-5 text-gray-400">
-          Have a role, project, or opportunity in mind? Let's talk.
+          Have a role, project, or opportunity in mind? Send a message and I'll get back to you as soon as I can.
         </h2>
 
         <div className="mt-14 flex border border-white/10 rounded-2xl overflow-hidden max-w-4xl md:ml-60">
