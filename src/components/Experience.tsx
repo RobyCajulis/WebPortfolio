@@ -17,7 +17,7 @@ function Experience() {
 
         <div className="my-10 mr-10 flex flex-col md:flex-row bg-white/[0.03] border rounded-2xl border-white/10 overflow-hidden">
 
-            <div className="md:w-64 border-b md:border-b-0 md:border-r border-white/10">
+            <div className="md:w-64 md:border-r border-white/10">
                 <button
                     onClick={() => setActive(true)}
                     className={
