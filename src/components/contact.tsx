@@ -55,23 +55,23 @@ function Contact() {
           Have a role, project, or opportunity in mind? Send a message and I'll get back to you as soon as I can.
         </h2>
 
-        <div className="mt-14 flex border border-white/10 rounded-2xl overflow-hidden max-w-4xl md:ml-60">
+        <div className="mt-14 flex flex-col md:flex-row border border-white/10 rounded-2xl overflow-hidden max-w-4xl md:ml-60">
 
           {/* Info panel */}
-          <div className="flex-[0.9] bg-gray-900/40 px-8 py-10 flex flex-col justify-center border-r border-white/10">
+          <div className="flex-[0.9] bg-gray-900/40 px-8 py-10 flex flex-col justify-center border-b md:border-b-0 md:border-r border-white/10">
             <h3 className="text-lg font-semibold mb-4">Get in touch</h3>
 
             <div className="flex items-center gap-3 mb-3.5 text-sm text-gray-400">
               <span className="w-7 h-7 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-xs">@</span>
-              rossbrent@email.com
+              <a href="mailto:robycajulis01@gmail.com" target="_blank" rel="noreferrer">robycajulis01@gmail.com</a>
             </div>
             <div className="flex items-center gap-3 mb-3.5 text-sm text-gray-400">
               <span className="w-7 h-7 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-xs">in</span>
-              linkedin.com/in/rossbrent-cajulis
+              <a href="https://www.linkedin.com/in/rossbrent-cajulis-90a691415/" target="_blank" rel="noreferrer">linkedin.com/in/rossbrent-cajulis</a>
             </div>
             <div className="flex items-center gap-3 mb-4 text-sm text-gray-400">
               <span className="w-7 h-7 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-xs">gh</span>
-              github.com/RobyCajulis
+            <a href="https://github.com/RobyCajulis" target="_blank" rel="noreferrer">https://github.com/RobyCajulis</a>
             </div>
 
             <div className="flex items-center gap-2 text-sm text-green-400">
