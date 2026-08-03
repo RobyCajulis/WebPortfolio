@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 
 function Experience() {
@@ -7,7 +5,7 @@ function Experience() {
 
   return (
     <>
-    <div className="min-h-screen bg-gray-950 px-6">
+    <div className="min-h-screen bg-gray-950 px-6 overflow-hidden">
     <div className="items-start max-w-7xl md:ml-40 md:ps-40">
 
         <div className="text-white font-bold tracking-tight">
