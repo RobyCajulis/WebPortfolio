@@ -23,7 +23,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <>
-    <BackgroundMusic/>
+    
     <TopNav/>
 
     <section id="landing">
