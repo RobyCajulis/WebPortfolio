@@ -1,4 +1,3 @@
-import Resume from "../assets/Resume.pdf";
 import CV from "../assets/CV.pdf";
 
 function Landing(){
@@ -7,7 +6,7 @@ function Landing(){
         <div className="min-h-screen bg-gray-950">
         <div className="flex flex-col gap-2 pt-32 md:pt-45 md:ps-40">
             <div className="text-white px-6 md:ps-85 pt-20 md:pt-35 font-bold tracking-tight text-justify">
-                <h1 className="text-7xl font-bold tracking-tight">Hi,I'm Rossbrent,</h1>
+                <h1 className="text-7xl font-bold tracking-tight">Hi, I'm Rossbrent,</h1>
 
                 <p className ="text-7xl font-bold tracking-tight">
                     <span>Full-Stack</span>
@@ -33,7 +32,7 @@ function Landing(){
                         <span className="absolute inset-0 w-full h-full bg-gray-500 transform scale-x-0 origin-left rounded-tr-full rounded-br-full group-hover:scale-x-150 transition-transform duration-800 ease-in-out z-0"></span>
                         <span className="absolute inset-0 w-full h-full bg-gray-500 transform scale-x-0 origin-right rounded-tl-full rounded-bl-full group-hover:scale-x-150 transition-transform duration-800 ease-in-out z-0"></span>
                         <span className="relative z-10 group-hover:text-white transition-colors duration-800">
-                                <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
+                                <a href={CV} target="_blank" rel="noreferrer">Resume</a>
                                 </span>
                         </button>
                     </li>
@@ -47,16 +46,6 @@ function Landing(){
                                 </span>
                         </button>
                     </li>
-
-                  <li className="my-6 md::my-0">
-                    <button className="relative px-6 py-3 font-semibold text-gray-400 border-2 border-gray-500 overflow-hidden group rounded-xl cursor-pointer">
-                        <span className="absolute inset-0 w-full h-full bg-gray-500 transform scale-x-0 origin-left rounded-tr-full rounded-br-full group-hover:scale-x-150 transition-transform duration-800 ease-in-out z-0"></span>
-                        <span className="absolute inset-0 w-full h-full bg-gray-500 transform scale-x-0 origin-right rounded-tl-full rounded-bl-full group-hover:scale-x-150 transition-transform duration-800 ease-in-out z-0"></span>
-                        <span className="relative z-10 group-hover:text-white transition-colors duration-800">
-                        <a href={CV} target="_blank" rel="noreferrer">CV</a>
-                        </span>
-                     </button>
-                  </li>
                 </ul>
                 
             </div>

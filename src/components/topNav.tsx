@@ -47,7 +47,7 @@ function TopNav() {
         <li className="mx-4 my-6 md::my-0">
           <a href="#contact" className="text-xl hover:text-gray-400 transitions-colors text-white">Contact</a>
         </li>
-        <div className="h-7 text-white size-1">|</div>
+        <div className="h-7 text-white size-1"></div>
         <li className="mx-4 my-6 md::my-0">
           <a href="https://github.com/RobyCajulis" target="_blank" rel="noreferrer" className="text-center text-lg text-white hover:text-gray-400 transition-colors cursor-pointer"> <LuGithub size ={30}/></a>
         </li>
