@@ -1,6 +1,5 @@
 import TopNav from './components/topNav.jsx';
 import Education from './components/education.jsx';
-import BackgroundMusic from './components/bg.js';
 import Landing from './components/landing.js';
 import Experience from './components/Experience.js';
 import Skills from './components/skills.js';
